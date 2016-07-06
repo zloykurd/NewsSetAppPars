@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imagelist"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/imgview" />
+
+        <TextView
+            android:id="@+id/newsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="News of the Day" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:gravity="right"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/newsDatel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="0"
+            android:text="2016-06-28 12:12" />
+    </TableRow>
+</LinearLayout>

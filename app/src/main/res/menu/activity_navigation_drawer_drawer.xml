@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/VB_KG"
+            android:icon="@drawable/vbicon"
+            android:title="@string/VB_KG" />
+        <item
+            android:id="@+id/zanoza_kg"
+            android:icon="@drawable/zanozalogo"
+            android:title="@string/zanoza" />
+        <item
+            android:id="@+id/nav_24_kg"
+            android:icon="@drawable/ic_action_24kg"
+            android:title="@string/d_ch_kg" />
+        <item
+            android:id="@+id/nav_vesti"
+            android:icon="@drawable/vestikglogo"
+            android:title="@string/vesti_kg" />
+    </group>
+
+
+
+</menu>
